@@ -1,0 +1,40 @@
+{
+  "about": {
+    "title": "Sobre mí",
+    "profession": "Desarrolladora Web Junior",
+    "text": "¡Hola! Soy Virginia, desarrolladora web junior con muchas ganas de aprender y crecer en el sector tecnológico. Actualmente estoy finalizando un Ciclo Formativo de Grado Superior en Desarrollo Web. Me considero una persona resolutiva, organizada y con facilidad para adaptarme y trabajar en equipo. Busco una oportunidad donde pueda seguir aprendiendo, aportar desde el primer día y crecer como desarrolladora en un entorno colaborativo."
+  },
+  "experience": {
+    "title": "Experiencia & Formación",
+    "technologies": "Tecnologías",
+    "position": "Desarrolladora Web (Prácticas)",
+    "date": "Jelliby - Barcelona · Ene 2025 - May 2025",
+    "softSkills": [
+      "Trabajo en equipo",
+      "Comunicación",
+      "Resolución de problemas",
+      "Responsabilidad"
+    ],
+    "study-1": "CFGS - Desarrollo de Aplicaciones Web",
+    "date-1": "Instituto Politecnics - Barcelona · Sep 2023 - May 2025",
+    "softSkills-1": ["Autonomía", "Organización", "Curiosidad"],
+    "study-2": "Bootcamp Full Stack - Desarrollo de Aplicaciones Web",
+    "date-2": "Neoland - Madrid · Jun 2021 - Sep 2021",
+    "softSkills-2": ["Trabajo bajo presión", "Adaptabilidad"],
+    "study-3": "Curso - Fundamentos de la Programacion",
+    "date-3": "UTN - Buenos Aires · Dic 2020 - Mar 2021",
+    "softSkills-3": ["Pensamiento lógico"]
+  },
+  "contact": {
+    "title": "Contacto",
+    "text": "¿Te interesa colaborar o contratarme?"
+  },
+  "proyects": {
+    "title": "Proyectos",
+    "see-more": "Ver mas",
+    "desc-cientifics": "Plataforma de juegos",
+    "desc-organizen": "Herramienta de gestión de proyectos",
+    "desc-chillgig": "Plataforma para contactar musicos y locales",
+    "desc-yogamotion": "Herramienta para crear y gestionar eventos"
+  }
+}

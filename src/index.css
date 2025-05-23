@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.flip-coin {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+.flipping {
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,39 @@
+{
+  "about": {
+    "title": "About Me",
+    "profession": "Junior Web Developer",
+    "text": "Hi! I'm Virginia, a junior web developer eager to learn and grow in the tech world. I'm currently finishing a Higher Vocational Training program in Web Development. I’m organized, solution-oriented, and adapt well to teamwork. I'm looking for an opportunity to keep learning, contribute from day one, and grow as a developer in a collaborative environment."
+  },
+  "experience": {
+    "title": "Experience & Education",
+    "technologies": "Technologies",
+    "position": "Web Developer (Internship)",
+    "date": "Jelliby - Barcelona · Jan 2025 - May 2025",
+    "softSkills": [
+    "Teamwork",
+    "Communication",
+    "Problem solving"],
+    "study-1": "Higher Vocational Training - Web Application Development",
+    "date-1": "Instituto Politecnics - Barcelona · Sep 2023 - May 2025",
+    "softSkills-1": ["Autonomy", "Organization", "Curiosity"],
+    "study-2": "Full Stack Bootcamp - Web Application Development",
+    "date-2": "Neoland - Madrid · Jun 2021 - Sep 2021",
+    "softSkills-2": ["Working under pressure", "Adaptability"],
+    "study-3": "Course - Programming Fundamentals",
+    "date-3": "UTN - Buenos Aires · Dec 2020 - Mar 2021",
+    "softSkills-3": ["Logical thinking"]
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Interested in collaborating or hiring me?"
+  },
+  "proyects": {
+  "title": "Projects",
+  "see-more": "See more",
+  "desc-cientifics": "Gaming platform",
+  "desc-organizen": "Project management tool",
+  "desc-chillgig": "Platform to connect musicians and venues",
+  "desc-yogamotion": "Tool to create and manage events"
+}
+
+}
