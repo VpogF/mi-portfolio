@@ -1,12 +1,75 @@
-# React + Vite
+# 🌟 Mi Portfolio Personal | Vue.js Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene el código fuente de mi portfolio personal, una aplicación web desarrollada utilizando **Vue.js** y **Vite**.
 
-Currently, two official plugins are available:
+El objetivo de este proyecto es presentar mis habilidades, experiencia y proyectos personales de desarrollo web.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Ver el Portfolio Desplegado
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+El portfolio está desplegado y accesible públicamente a través de GitHub Pages:
+
+**[Visitar Portfolio](https://vpogf.github.io/mi-portfolio/)**
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+*   **Vue.js:** Framework progresivo de JavaScript para la interfaz de usuario.
+*   **Vite:** Herramienta de construcción rápida para el entorno de desarrollo.
+*   **Tailwind CSS:** Framework de CSS utility-first para un diseño responsive y moderno.
+*   **JavaScript (ES6+):** Lenguaje de programación principal.
+*   **HTML5 & CSS3:** Estructura y estilos básicos.
+*   **Git & GitHub Pages:** Control de versiones y despliegue.
+
+---
+
+## ⚙️ Configuración del Proyecto (Para Desarrolladores)
+
+Si deseas clonar este proyecto y ejecutarlo localmente para desarrollo o revisión, sigue estos pasos:
+
+### Prerrequisitos
+
+Asegúrate de tener **Node.js** y **npm** instalados en tu sistema.
+
+### Instalación
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone github.com
+    ```
+
+2.  **Navega al directorio del proyecto:**
+    ```bash
+    cd mi-portfolio
+    ```
+
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+
+### Ejecución
+
+1.  **Inicia el servidor de desarrollo local:**
+    ```bash
+    npm run dev
+    ```
+
+2.  Abre tu navegador web y visita la dirección que aparece en la consola (normalmente `http://localhost:5173`).
+
+---
+
+## ✨ Características Principales
+
+*   Diseño responsive y moderno.
+*   Uso de componentes de Vue.js para una interfaz modular.
+*   Despliegue automatizado con GitHub Pages.
+
+---
+
+## 📫 Contacto
+
+Si tienes preguntas o quieres saber más sobre mi trabajo, no dudes en contactarme a través de mi [perfil de LinkedIn](https://www.linkedin.com/in/vpoglonig/).
+
