@@ -1,6 +1,5 @@
-# 🌟 Mi Portfolio Personal | Vue.js Project
-
-Este repositorio contiene el código fuente de mi portfolio personal, una aplicación web desarrollada utilizando **Vue.js** y **Vite**.
+# 🌟 Mi Portfolio Personal | React + Vite
+Este repositorio contiene el código fuente de mi portfolio personal, una aplicación web desarrollada utilizando **React** y **Vite**.
 
 El objetivo de este proyecto es presentar mis habilidades, experiencia y proyectos personales de desarrollo web.
 
@@ -16,7 +15,7 @@ El portfolio está desplegado y accesible públicamente a través de GitHub Page
 
 ## 🛠️ Tecnologías Utilizadas
 
-*   **Vue.js:** Framework progresivo de JavaScript para la interfaz de usuario.
+*   **React**: Biblioteca de JavaScript para construir interfaces de usuario..
 *   **Vite:** Herramienta de construcción rápida para el entorno de desarrollo.
 *   **Tailwind CSS:** Framework de CSS utility-first para un diseño responsive y moderno.
 *   **JavaScript (ES6+):** Lenguaje de programación principal.
@@ -64,7 +63,7 @@ Asegúrate de tener **Node.js** y **npm** instalados en tu sistema.
 ## ✨ Características Principales
 
 *   Diseño responsive y moderno.
-*   Uso de componentes de Vue.js para una interfaz modular.
+*   Uso de componentes de React para una interfaz modular.
 *   Despliegue automatizado con GitHub Pages.
 
 ---
