@@ -31,14 +31,14 @@ const Projects = () => {
     {
       title: 'Chill Gig',
       description: t('proyects.desc-chillgig'),
-      link: '#',
+      link: 'https://github.com/TheCheetahGirls-3/melodia-conectada',
       imageSrc: chillgigImage,
       videoSrc: chillgigVideo,
     },
     {
       title: 'Yogamotion',
       description: t('proyects.desc-yogamotion'),
-      link: '#',
+      link: 'https://github.com/VpogF/yogamotion',
       imageSrc: yogamotionImage,
       videoSrc: yogamotionVideo,
     },
