@@ -24,7 +24,7 @@ const Projects = () => {
     {
       title: 'Organizen',
       description: t('proyects.desc-organizen'),
-      link: 'http://organizen.vpf2024.me/',
+      link: 'https://github.com/VpogF/Herramienta-de-Gestion-de-Proyectos',
       imageSrc: organizenImage,
       videoSrc: organizenVideo,
     },
