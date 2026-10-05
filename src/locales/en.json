@@ -1,39 +1,65 @@
 {
   "about": {
-    "title": "About Me",
-    "profession": "Junior Web Developer",
-    "text": "Hi! I'm Virginia, a junior web developer eager to learn and grow in the tech world. I'm currently finishing a Higher Vocational Training program in Web Development. I’m organized, solution-oriented, and adapt well to teamwork. I'm looking for an opportunity to keep learning, contribute from day one, and grow as a developer in a collaborative environment."
+    "title": "About me",
+    "profession": "Junior Backend Developer",
+    "text": "I'm Virginia, a junior backend developer based in Barcelona. I work remotely for Ethix, where I build features with NestJS, TypeScript and PostgreSQL, integrate AI models and write E2E tests with Playwright. Before that I worked in technical support at Sequra, a fintech, which showed me how bugs affect real users. I like understanding problems end to end: from the database to what people see on screen."
   },
   "experience": {
-    "title": "Experience & Education",
+    "title": "Experience and education",
     "technologies": "Technologies",
-    "position": "Web Developer (Internship)",
-    "date": "Jelliby - Barcelona · Jan 2025 - May 2025",
-    "softSkills": [
-    "Teamwork",
-    "Communication",
-    "Problem solving"],
-    "study-1": "Higher Vocational Training - Web Application Development",
-    "date-1": "Instituto Politecnics - Barcelona · Sep 2023 - May 2025",
-    "softSkills-1": ["Autonomy", "Organization", "Curiosity"],
-    "study-2": "Full Stack Bootcamp - Web Application Development",
-    "date-2": "Neoland - Madrid · Jun 2021 - Sep 2021",
-    "softSkills-2": ["Working under pressure", "Adaptability"],
-    "study-3": "Course - Programming Fundamentals",
-    "date-3": "UTN - Buenos Aires · Dec 2020 - Mar 2021",
-    "softSkills-3": ["Logical thinking"]
+    "tasks": "What I did",
+    "items": [
+      {
+        "title": "Junior Developer (Backend)",
+        "date": "Ethix · Remote from Barcelona · Feb 2026 - present",
+        "tasks": [
+          "Built the context layer that feeds an LLM with business data, so a chatbot can answer users about the status of their cases.",
+          "Implemented data isolation with Row Level Security in PostgreSQL through a NestJS middleware.",
+          "Implemented providers to integrate different AI models in the backend.",
+          "Built an end-to-end status filter and worked on the frontend unifying styles.",
+          "Designed an E2E test suite with Playwright covering the whole application."
+        ]
+      },
+      {
+        "title": "Developer Trainee",
+        "date": "Jelliby · Barcelona · Jan 2025 - Apr 2025",
+        "tasks": [
+          "Built custom WordPress themes and blocks based on each client's requirements.",
+          "Implemented custom PHP features and set up deployments on Dinahosting."
+        ]
+      },
+      {
+        "title": "Customer Care Specialist",
+        "date": "Sequra (fintech) · Barcelona · Aug 2023 - Sep 2024",
+        "tasks": [
+          "Wrote incident reports in Jira for the development team, with reproduction steps and user context.",
+          "Spotted recurring error patterns together with operations and tech teams."
+        ]
+      },
+      {
+        "title": "Higher Vocational Training - Web Application Development",
+        "date": "Centre d'Estudis Politècnics · Barcelona · Sep 2023 - May 2025"
+      },
+      {
+        "title": "Oracle PL/SQL Database Programming (intermediate and advanced)",
+        "date": "UTN · 2025 - 2026"
+      },
+      {
+        "title": "Full Stack Web Developer Bootcamp",
+        "date": "Neoland · Madrid · May 2021 - Sep 2021"
+      }
+    ]
   },
   "contact": {
     "title": "Contact",
     "text": "Interested in collaborating or hiring me?"
   },
   "proyects": {
-  "title": "Projects",
-  "see-more": "See more",
-  "desc-cientifics": "Gaming platform",
-  "desc-organizen": "Project management tool",
-  "desc-chillgig": "Platform to connect musicians and venues",
-  "desc-yogamotion": "Tool to create and manage events"
-}
-
+    "title": "Projects",
+    "see-more": "See more",
+    "desc-cientifics": "Gaming platform",
+    "desc-organizen": "Project management tool",
+    "desc-chillgig": "Platform to connect musicians and venues",
+    "desc-yogamotion": "Tool to create and manage events"
+  }
 }

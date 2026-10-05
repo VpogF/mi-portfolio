@@ -1,4 +1,7 @@
 # 🌟 Mi Portfolio Personal | React + Vite
+
+![Captura del portfolio](docs/screenshot.png)
+
 Este repositorio contiene el código fuente de mi portfolio personal, una aplicación web desarrollada utilizando **React** y **Vite**.
 
 El objetivo de este proyecto es presentar mis habilidades, experiencia y proyectos personales de desarrollo web.
@@ -36,7 +39,7 @@ Asegúrate de tener **Node.js** y **npm** instalados en tu sistema.
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone github.com
+    git clone https://github.com/VpogF/mi-portfolio.git
     ```
 
 2.  **Navega al directorio del proyecto:**

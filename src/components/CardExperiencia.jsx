@@ -1,10 +1,7 @@
 import React from 'react';
-import { FaHtml5, FaCss3Alt, FaReact, FaJs } from 'react-icons/fa';
-import { BsBootstrap } from 'react-icons/bs';
 import { useTranslation } from 'react-i18next';
 
-const CardExperiencia = ({ title, date, isActive, onToggle, technologies, softSkills }) => {
-
+const CardExperiencia = ({ title, date, tasks = [], isActive, onToggle, technologies = [] }) => {
   const { t } = useTranslation();
 
   return (
@@ -16,25 +13,28 @@ const CardExperiencia = ({ title, date, isActive, onToggle, technologies, softSk
       <p className="text-gray-600 dark:text-gray-300">{date}</p>
 
       {isActive && (
-        <div className="mt-4 space-y-2">
-          {/* Tecnologías */}
-          {technologies && technologies.length > 0 && (
+        <div className="mt-4 space-y-3">
+          {tasks.length > 0 && (
             <>
-            <p className='text-gray-700 dark:text-gray-300'>{t('experience.technologies')}</p>
-            <div className="flex flex-wrap gap-4 text-2xl text-blue-600 dark:text-blue-300">
-                {technologies.map((Icon, i) => (
-                <Icon key={i} className="w-6 h-6" />
+              <p className="text-gray-700 dark:text-gray-300">{t('experience.tasks')}</p>
+              <ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300 space-y-1">
+                {tasks.map((task, i) => (
+                  <li key={i}>{task}</li>
                 ))}
-            </div>
-                </>
-            )}
-          {/* Soft Skills */}
-          <p className='text-gray-700 dark:text-gray-300'>Soft Skills</p>
-          <ul className="list-disc list-inside text-sm text-gray-700 dark:text-gray-300">
-            {softSkills.map((skill, i) => (
-              <li key={i}>{skill}</li>
-            ))}
-          </ul>
+              </ul>
+            </>
+          )}
+
+          {technologies.length > 0 && (
+            <>
+              <p className="text-gray-700 dark:text-gray-300">{t('experience.technologies')}</p>
+              <div className="flex flex-wrap gap-4 text-2xl text-blue-600 dark:text-blue-300">
+                {technologies.map((Icon, i) => (
+                  <Icon key={i} className="w-6 h-6" />
+                ))}
+              </div>
+            </>
+          )}
         </div>
       )}
     </div>

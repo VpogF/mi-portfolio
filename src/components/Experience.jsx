@@ -1,44 +1,33 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CardExperiencia from './CardExperiencia';
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDocker, FaJava, FaWordpress  } from 'react-icons/fa';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaDocker, FaJava, FaWordpress, FaGitAlt } from 'react-icons/fa';
 import { DiNodejs } from 'react-icons/di';
 import { BsBootstrap } from 'react-icons/bs';
-import { SiTailwindcss, SiAstro, SiFigma, SiPhp, SiMysql, SiVuedotjs } from 'react-icons/si';
+import {
+  SiTailwindcss, SiAstro, SiFigma, SiPhp, SiMysql, SiVuedotjs,
+  SiNestjs, SiTypescript, SiPostgresql, SiTypeorm, SiClaude, SiJira, SiOracle,
+} from 'react-icons/si';
+
+// Iconos en el mismo orden que experience.items en los JSON de traducción
+const technologiesByItem = [
+  [SiNestjs, SiTypescript, SiPostgresql, SiTypeorm, FaReact, FaGitAlt, SiClaude], // Ethix
+  [FaHtml5, FaCss3Alt, FaJs, SiTailwindcss, FaWordpress, SiAstro, SiFigma, SiPhp], // Jelliby
+  [SiJira],                                                                         // Sequra
+  [FaHtml5, FaCss3Alt, FaJs, FaDocker, FaJava, SiMysql, SiVuedotjs, BsBootstrap, SiFigma, SiPhp], // DAW
+  [SiOracle],                                                                       // UTN PL/SQL
+  [FaHtml5, FaCss3Alt, FaJs, FaReact, DiNodejs],                                    // Neoland
+];
+
 const Experience = () => {
   const { t } = useTranslation();
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0); // Ethix abierta por defecto
 
   const handleToggle = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-  const items = [
-    {
-      title: t('experience.position'),
-      date: t('experience.date'),
-      technologies: [FaHtml5, FaCss3Alt, FaJs, SiTailwindcss, FaWordpress , SiAstro, SiFigma, SiPhp ],
-      softSkills: t('experience.softSkills', { returnObjects: true }),
-    },
-    {
-      title: t('experience.study-1'),
-      date: t('experience.date-1'),
-      technologies: [FaHtml5, FaCss3Alt, FaJs, FaDocker, FaJava, SiMysql, SiVuedotjs, BsBootstrap, SiFigma, SiPhp ],
-      softSkills: t('experience.softSkills-1', { returnObjects: true }),
-    },
-    {
-      title: t('experience.study-2'),
-      date: t('experience.date-2'),
-      technologies: [FaHtml5, FaCss3Alt, FaJs, FaReact, DiNodejs],
-      softSkills: t('experience.softSkills-2', { returnObjects: true }),
-    },
-    {
-      title: t('experience.study-3'),
-      date: t('experience.date-3'),
-      technologies: [ ],
-      softSkills: t('experience.softSkills-3', { returnObjects: true }),
-    },
-  ];
+  const items = t('experience.items', { returnObjects: true });
 
   return (
     <section id="experience" className="py-20 px-4">
@@ -49,10 +38,10 @@ const Experience = () => {
             key={index}
             title={item.title}
             date={item.date}
+            tasks={item.tasks}
             isActive={activeIndex === index}
             onToggle={() => handleToggle(index)}
-            technologies={item.technologies}
-            softSkills={item.softSkills}
+            technologies={technologiesByItem[index] || []}
           />
         ))}
       </div>

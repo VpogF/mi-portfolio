@@ -1,29 +1,54 @@
 {
   "about": {
     "title": "Sobre mí",
-    "profession": "Desarrolladora Web Junior",
-    "text": "¡Hola! Soy Virginia, desarrolladora web junior con muchas ganas de aprender y crecer en el sector tecnológico. Actualmente estoy finalizando un Ciclo Formativo de Grado Superior en Desarrollo Web. Me considero una persona resolutiva, organizada y con facilidad para adaptarme y trabajar en equipo. Busco una oportunidad donde pueda seguir aprendiendo, aportar desde el primer día y crecer como desarrolladora en un entorno colaborativo."
+    "profession": "Desarrolladora Backend Junior",
+    "text": "Soy Virginia, desarrolladora backend junior en Barcelona. Trabajo en remoto para Ethix, donde desarrollo funcionalidades con NestJS, TypeScript y PostgreSQL, integro modelos de IA y escribo tests E2E con Playwright. Antes trabajé en atención técnica en Sequra, una fintech, y eso me dio una visión clara de cómo los errores afectan al usuario. Me gusta entender los problemas de punta a punta: desde la base de datos hasta lo que ve la persona en pantalla."
   },
   "experience": {
-    "title": "Experiencia & Formación",
+    "title": "Experiencia y formación",
     "technologies": "Tecnologías",
-    "position": "Desarrolladora Web (Prácticas)",
-    "date": "Jelliby - Barcelona · Ene 2025 - May 2025",
-    "softSkills": [
-      "Trabajo en equipo",
-      "Comunicación",
-      "Resolución de problemas",
-      "Responsabilidad"
-    ],
-    "study-1": "CFGS - Desarrollo de Aplicaciones Web",
-    "date-1": "Instituto Politecnics - Barcelona · Sep 2023 - May 2025",
-    "softSkills-1": ["Autonomía", "Organización", "Curiosidad"],
-    "study-2": "Bootcamp Full Stack - Desarrollo de Aplicaciones Web",
-    "date-2": "Neoland - Madrid · Jun 2021 - Sep 2021",
-    "softSkills-2": ["Trabajo bajo presión", "Adaptabilidad"],
-    "study-3": "Curso - Fundamentos de la Programacion",
-    "date-3": "UTN - Buenos Aires · Dic 2020 - Mar 2021",
-    "softSkills-3": ["Pensamiento lógico"]
+    "tasks": "Qué hice",
+    "items": [
+      {
+        "title": "Desarrolladora Junior (Backend)",
+        "date": "Ethix · Remoto desde Barcelona · Feb 2026 - actualidad",
+        "tasks": [
+          "Desarrollé la capa de contexto que alimenta a un LLM con datos del negocio, para que un chatbot responda a los usuarios sobre el estado de sus trámites.",
+          "Implementé aislamiento de datos con Row Level Security en PostgreSQL, mediante un middleware de NestJS.",
+          "Implementé providers para integrar distintos modelos de IA en el backend.",
+          "Desarrollé de punta a punta un filtro por estado y trabajé en el front unificando estilos.",
+          "Diseñé una suite de tests E2E con Playwright para toda la aplicación."
+        ]
+      },
+      {
+        "title": "Developer Trainee",
+        "date": "Jelliby · Barcelona · Ene 2025 - Abr 2025",
+        "tasks": [
+          "Desarrollé temas y bloques personalizados de WordPress según los requisitos de cada cliente.",
+          "Implementé funcionalidades a medida en PHP y configuré despliegues en Dinahosting."
+        ]
+      },
+      {
+        "title": "Customer Care Specialist",
+        "date": "Sequra (fintech) · Barcelona · Ago 2023 - Sep 2024",
+        "tasks": [
+          "Redacté reportes de incidencias en Jira para el equipo de desarrollo, con pasos de reproducción y contexto del usuario.",
+          "Detecté patrones de errores recurrentes junto a operaciones y tecnología."
+        ]
+      },
+      {
+        "title": "CFGS - Desarrollo de Aplicaciones Web",
+        "date": "Centre d'Estudis Politècnics · Barcelona · Sep 2023 - May 2025"
+      },
+      {
+        "title": "Programación en Bases de Datos Oracle PL/SQL (intermedio y avanzado)",
+        "date": "UTN · 2025 - 2026"
+      },
+      {
+        "title": "Bootcamp Full Stack Web Developer",
+        "date": "Neoland · Madrid · May 2021 - Sep 2021"
+      }
+    ]
   },
   "contact": {
     "title": "Contacto",
@@ -31,10 +56,10 @@
   },
   "proyects": {
     "title": "Proyectos",
-    "see-more": "Ver mas",
+    "see-more": "Ver más",
     "desc-cientifics": "Plataforma de juegos",
     "desc-organizen": "Herramienta de gestión de proyectos",
-    "desc-chillgig": "Plataforma para contactar musicos y locales",
+    "desc-chillgig": "Plataforma para contactar músicos y locales",
     "desc-yogamotion": "Herramienta para crear y gestionar eventos"
   }
 }
