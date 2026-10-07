@@ -56,10 +56,17 @@
   },
   "proyects": {
     "title": "Projects",
-    "see-more": "See more",
-    "desc-cientifics": "Gaming platform",
-    "desc-organizen": "Project management tool",
-    "desc-chillgig": "Platform to connect musicians and venues",
-    "desc-yogamotion": "Tool to create and manage events"
+    "details": "View details",
+    "demo": "Demo",
+    "code": "Code",
+    "close": "Close",
+    "summary-cientifics": "Educational games platform with a leaderboard",
+    "desc-cientifics": "Team project: educational games platform with a leaderboard (PHP, MySQL). I built the login with sessions, hashed passwords and PDO prepared statements, and the waste-collecting game in JavaScript: collision detection, lives system, progressive difficulty and score submission to the leaderboard.",
+    "summary-organizen": "Collaborative project management tool",
+    "desc-organizen": "Collaborative project management tool. PHP backend with endpoints consumed from JavaScript via fetch, MySQL prepared statements and a drag-and-drop task board.",
+    "summary-chillgig": "Platform connecting musicians with venues",
+    "desc-chillgig": "Team project: platform connecting musicians with venues (Laravel, Vue 3, MySQL, Docker). I designed the relational database (15 tables) and built the REST API with filters and messaging, the login with Laravel authentication and a Mapbox map integration.",
+    "summary-yogamotion": "Yoga class management platform",
+    "desc-yogamotion": "Yoga class management platform. I built a REST API in Laravel with authentication, event CRUD and enrollment, and an interface with Vue 3 and Bootstrap. MySQL database with Eloquent and a Docker setup."
   }
 }

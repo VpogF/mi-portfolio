@@ -56,10 +56,17 @@
   },
   "proyects": {
     "title": "Proyectos",
-    "see-more": "Ver más",
-    "desc-cientifics": "Plataforma de juegos",
-    "desc-organizen": "Herramienta de gestión de proyectos",
-    "desc-chillgig": "Plataforma para contactar músicos y locales",
-    "desc-yogamotion": "Herramienta para crear y gestionar eventos"
+    "details": "Ver detalles",
+    "demo": "Demo",
+    "code": "Código",
+    "close": "Cerrar",
+    "summary-cientifics": "Plataforma de videojuegos educativos con ranking",
+    "desc-cientifics": "Proyecto en equipo: plataforma de videojuegos educativos con ranking (PHP, MySQL). Desarrollé el login con sesiones, contraseñas hasheadas y consultas preparadas con PDO, y el juego de limpieza de residuos en JavaScript: colisiones, sistema de vidas, dificultad progresiva y envío de la puntuación al ranking.",
+    "summary-organizen": "Herramienta de gestión de proyectos colaborativos",
+    "desc-organizen": "Herramienta de gestión de proyectos colaborativos. Backend en PHP con endpoints consumidos desde JavaScript con fetch, consultas preparadas en MySQL y tablero de tareas con arrastrar y soltar.",
+    "summary-chillgig": "Plataforma para conectar músicos con locales",
+    "desc-chillgig": "Proyecto en equipo: plataforma para conectar músicos con locales (Laravel, Vue 3, MySQL, Docker). Diseñé la base de datos relacional (15 tablas), desarrollé la API REST con filtros y mensajería, el login con la autenticación de Laravel y la integración de un mapa con Mapbox.",
+    "summary-yogamotion": "Plataforma de gestión de clases de yoga",
+    "desc-yogamotion": "Plataforma de gestión de clases de yoga. Desarrollé una API REST en Laravel con autenticación, CRUD de eventos e inscripciones, y una interfaz con Vue 3 y Bootstrap. Base de datos MySQL con Eloquent y entorno con Docker."
   }
 }
