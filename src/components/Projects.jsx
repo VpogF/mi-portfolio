@@ -22,6 +22,7 @@ const Projects = () => {
       summary: t('proyects.summary-cientifics'),
       description: t('proyects.desc-cientifics'),
       tags: ['PHP', 'MySQL', 'JavaScript', 'PDO'],
+      demo: 'https://vpogf.github.io/cient-fiks/joc_virginia/tutorial_virginia.html',
       code: 'https://github.com/jorditus99/cient-fiks',
       imageSrc: cientifiksImage,
       videoSrc: cientifiksVideo,
