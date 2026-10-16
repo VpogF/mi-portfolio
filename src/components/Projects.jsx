@@ -5,7 +5,7 @@ import ProjectModal from './ProjectModal';
 import cientifiksImage from '../assets/images/cientifiks-portada.webp';
 import cientifiksVideo from '../assets/videos/cientifiksVideo.mp4';
 import organizenImage from '../assets/images/organizen-portada.webp';
-import organizenVideo from '../assets/videos/organizenVideo.mp4';
+import organizenVideo from '../assets/videos/OrganizenVideo1.mp4';
 import chillgigImage from '../assets/images/chillgig-portada.webp';
 import chillgigVideo from '../assets/videos/chillgigVideo.mp4';
 import yogamotionImage from '../assets/images/yogamotion-portada.webp';
